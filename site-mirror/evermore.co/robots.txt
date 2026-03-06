@@ -1,8 +1,4 @@
-# START YOAST BLOCK
-# ---------------------------
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://evermore.co/sitemap_index.xml
-# ---------------------------
-# END YOAST BLOCK
+Sitemap: https://evermore.co/sitemap.xml
