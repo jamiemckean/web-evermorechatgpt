@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/site-mirror/evermore.co/index.html"
+    },
+    {
+      "source": "/evermore.co/:path*",
+      "destination": "/site-mirror/evermore.co/:path*"
+    },
+    {
+      "source": "/cdn.jsdelivr.net/:path*",
+      "destination": "/site-mirror/cdn.jsdelivr.net/:path*"
+    },
+    {
+      "source": "/fonts.googleapis.com/:path*",
+      "destination": "/site-mirror/fonts.googleapis.com/:path*"
+    },
+    {
+      "source": "/fonts.gstatic.com/:path*",
+      "destination": "/site-mirror/fonts.gstatic.com/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/site-mirror/evermore.co/:path*"
+    }
+  ]
+}
